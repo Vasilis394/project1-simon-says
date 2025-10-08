@@ -48,7 +48,7 @@
 - adjust an interface, based on a previous step
 - add a system where the player can make 3 mistakes before losing the game
 - add more commands to do, including buttons
-
+- to fix an issue where background won't place properly
 
 ## Pseudocode
 
