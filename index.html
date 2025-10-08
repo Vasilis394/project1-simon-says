@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script defer src="./js/app.js"></script>
+    <title>Simon Says Game</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap" rel="stylesheet">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=BBH+Sans+Hegarty&display=swap" rel="stylesheet">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=BBH+Sans+Hegarty&family=Righteous&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=BBH+Sans+Hegarty&family=Metal+Mania&family=Righteous&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="modal" id="intro-modal">
+        <div class="intro-content">
+            <h1 class="game-title">Simon says: The game</h1>
+            <p>
+                <h3>Instructions:</h3>
+            <ul>
+                <li>The game contains buttons and a bracket to fill a required word.</li>
+                <li>Simon will order you to either press one of the buttons, or to write a word.</li>
+                <li>The game contains 10 attempts.</li>
+                <li>The game will have a timer in the background to do or not to do a command.</li>
+                <li>There are 3 difficulties: easy, medium and hard.</li>
+                <li>You have 6 seconds on easy mode to do a command, if required.</li>
+                <li>Times gets deducted by 2 seconds for each upcoming difficulty.</li>
+                <li>The delay for not doing a command for all difficulties is 3 seconds.</li>
+                <li>You win if you succeed at all 10 attempts.</li>
+                <li>If you run out of time or do a wrong command at even one attempt, you lose!</li>
+                <li>You press the button (or fill an input) ONLY when it says 'Simon says'.</li>
+                <li>ANYTHING else other than 'Simon says' must not be obeyed!</li>
+            </ul>
+
+
+
+            </p>
+            <div class="button">
+                <button id="play-button">PLAY</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-page">
+        <div id="text-row">
+            <div class="attempt">
+                    Welcome and brace yourselves!
+            </div>
+            <div class="simon-says">
+                Brace yourselves!
+            </div>
+            <div class="simon-action">
+                And again!
+            </div>
+            <div class="difficulty">
+                And again!
+            </div>
+        </div>
+
+        <div id="commands-row">
+            <div class="colors">
+                <div class="everyButton color-button red " id="red"></div>
+                <div class="everyButton color-button green" id="green"></div>
+                <div class="everyButton color-button blue" id="blue"></div>
+                <div class="everyButton color-button yellow" id="yellow"></div>
+            </div>
+
+            <div class="bracket">
+                <input type="text" class="inputs" id="word">
+                <div class="input button">
+                    <button class="everyButton submit-button" id="submitWrite">Submit</button>
+                </div>
+            </div>
+
+            <div class="fruits">
+                <div class="everyButton fruit-button peach" id="peach">
+
+                </div>
+                <div class="everyButton fruit-button banana" id="banana"></div>
+                <div class="everyButton fruit-button pineapple" id="pineapple"></div>
+                <div class="everyButton fruit-button eggplant" id="eggplant"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="game-won-modal">
+        <div class="modal-content" id="won">
+            <span>You win!</span>
+            <img src="https://i.redd.it/1rxdhjjf67791.jpg">
+            <button class="play-again">Play again?</button>
+        </div>
+    </div>
+
+
+    <div class="modal" id="game-lost-modal">
+        <div class="modal-content" id="lost">
+            <span>You lost!</span>
+            <img src="https://en.meming.world/images/en/thumb/d/d0/Crying_Cat.jpg/300px-Crying_Cat.jpg">
+            <button class="play-again">Play again?</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
