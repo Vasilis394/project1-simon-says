@@ -36,6 +36,7 @@
                 <li>The game will have a timer in the background to do or not to do a command.</li>
                 <li>There are 3 difficulties: easy, medium and hard.</li>
                 <li>You have 6 seconds on easy mode to do a command, if required.</li>
+                <li>After few successful attempts, the difficulty increases.</li>
                 <li>Times gets deducted by 2 seconds for each upcoming difficulty.</li>
                 <li>The delay for not doing a command for all difficulties is 3 seconds.</li>
                 <li>You win if you succeed at all 10 attempts.</li>
@@ -86,7 +87,7 @@
 
             <div class="fruits">
                 <div class="everyButton fruit-button peach" id="peach">
-
+                    
                 </div>
                 <div class="everyButton fruit-button banana" id="banana"></div>
                 <div class="everyButton fruit-button pineapple" id="pineapple"></div>
@@ -98,7 +99,7 @@
     <div class="modal" id="game-won-modal">
         <div class="modal-content" id="won">
             <span>You win!</span>
-            <img src="https://i.redd.it/1rxdhjjf67791.jpg">
+            <img src="https://i.redd.it/1rxdhjjf67791.jpg" alt="beluga-cat">
             <button class="play-again">Play again?</button>
         </div>
     </div>
@@ -106,8 +107,8 @@
 
     <div class="modal" id="game-lost-modal">
         <div class="modal-content" id="lost">
-            <span>You lost!</span>
-            <img src="https://en.meming.world/images/en/thumb/d/d0/Crying_Cat.jpg/300px-Crying_Cat.jpg">
+            <span>You lose!</span>
+            <img src="https://en.meming.world/images/en/thumb/d/d0/Crying_Cat.jpg/300px-Crying_Cat.jpg" alt="sad-cat">
             <button class="play-again">Play again?</button>
         </div>
     </div>
