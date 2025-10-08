@@ -2,13 +2,15 @@
 
 **Link to the game:**
 
+[click me to play](https://vasilis394.github.io/project1-simon-says/)
+
 ## Screenshot:
 
 ![ss](https://i.imgur.com/ygpoFWk.png)
 
 ## Description
 
-Simon Says" is a game where Simon gives commands to others. Player must only follow instructions that begin with the phrase "Simon says". Player loses for either following a command that isn't preceded by "Simon says" or for failing to follow a legitimate "Simon says" command. 
+"Simon Says" is a game where Simon gives commands to others. Player must only follow instructions that begin with the phrase "Simon says". Player loses for either following a command that isn't preceded by "Simon says" or for failing to follow a legitimate "Simon says" command. 
 
 
 
